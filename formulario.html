@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html lang = "pt-br">
+		<head>
+			<title>ED SHEERAN</title>
+			<meta charset = "utf-8">
+			<link href = "formulario.css" rel = "stylesheet">
+		</head>
+		<body>
+			<div class = "site">
+				<header class = "cab">
+					<div class = "nome">
+					<h1>Ed Sheeran</h1>
+					</div>
+						<nav class = "menu">
+							<ul>
+								<li><a href = "index.html">HOME</a></li>
+								<li><a href = "agenda.html">AGENDA</a></li>
+								<li><a href = "clipes.html">CLIPES</a></li>
+								<li><a href = "musicas.html">MUSICAS</a></li>
+								<li><a href = "biografia.html">BIOGRAFIA</a></li>
+								<li><a href = "contato.html">CONTATO</a></li>
+								<li><a href = "https://www.instagram.com/teddysphotos"target = "blank"> <img src = "imagens/instagram.png" alt="instagram"> </a></li>
+							</ul>
+						</nav>
+				</header>
+				<main>
+					<section>
+					<br>
+					<h1 class = "membro">Seja membro</h1>
+						<form action= "http://www.thiagomiranda.net/formulario.php" method= "get">
+							
+							<label>NOME: 
+								<input type="text" name = "nome" placeholder = "NOME">
+							</label>
+							<br>
+							<label>PAÍS:
+								<input type="text" name = "pais" placeholder = "PAÍS">
+							</label>
+							<br>
+							<label>CIDADE:
+								<input type="text" name = "Cidade" placeholder = "CIDADE">
+							</label>
+							<br>
+							<label>Estado:
+							<select name = "estado">
+							<option></option>
+							<option value ="estado 1">São Paulo</option>
+							<option value ="estado 2">Bahia</option>
+							<option value ="estado 3">Rio de Janeiro</option>
+							</select>
+							</label>
+							<br>
+							<label>DATA DE NASCIMENTO: 
+							<input type= "date" name="datanasc">
+							</label>
+							<fieldset>
+							<legend>SEXO:</legend>
+								<input type="radio" name="sexo" value="MASCULINO" id="sexom">
+									<label for="sexom">MASCULINO </label>
+								<input type="radio" name="sexo" value="FEMININO" id="sexof">
+									<label for="sexof">FEMININO</label>
+							</fieldset>
+							<br>
+							<label>E-MAIL:
+								<input type="email" name= "email" placeholder = "E-MAIL">
+							</label>
+							<br>
+							<input type="checkbox" name="aceito" value="aceitar" id="acp" checked>
+							<label for="acp">Li e aceito os termos de serviço</label>
+							<div>
+								<button type="submit">ENVIAR</button>
+							</div>
+							</form>
+					</section>
+				</main>
+			<footer class = "rodape">
+				<p>Copyright 2022 © Ed Sheeran Records - All rights reserved</p>
+			</footer>
+		</div>
+		</body>
+
+	</html>

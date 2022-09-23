@@ -1,0 +1,126 @@
+@font-face{
+	font-family: 'leafy';
+	src: url("fontes/leafy/leafy.otf");
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+main{
+	background-image: url("imagens/agenda2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-rows: 15% 10% 50% 15%; 	
+}
+.princ{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2; 
+	grid-row-end: 3;
+	font-family: leafy;
+	font-size: 8rem;
+	color: white;
+	text-align: right;
+}
+header{
+	background-image:url("imagens/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 85px;
+	width: 100%;
+	justify-content: space-around;;
+	align-items: center;
+	position: fixed;
+	font-family: leafy;
+	font-size: 2rem;
+	color: white;
+}
+header a:hover{
+	background-color: white;
+	color: black;
+	padding: 5px;
+	transform: scale(1.1);
+	border-radius: 5px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.menu ul{
+	display: flex;
+	margin: 10px auto;
+	justify-content: space-around;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+.menu ul li{
+	padding: 30px;
+	align-items: center;
+	list-style: none;
+}
+.rodape{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	color: white;
+	padding: 5vh 5vh 5vh 5vh;
+	text-align: center;
+}
+section{
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	grid-column-start: 2 ;
+	grid-column-end: 3;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+	color: white;
+	font-size: 1.5rem;
+	
+}
+.show{
+	background-color: #9e9e9e42;
+	margin: 10px auto;
+	width: 500px;
+	height: 100px;
+	border-radius: 20px;
+}
+section article{
+	display: grid;
+	grid-template-columns: 10% 30% 20% 30% 10%;
+	grid-template-rows: 20% 20% 20% 20% 20% ;
+	font-family: leafy;
+}
+.agenda{
+	color: white;
+	font-family: leafy;
+	font-size: 2rem;
+}
+.local{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2; 
+	grid-row-end: span 4;
+	text-align: center;
+}
+.cidade{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2; 
+	grid-row-end: span 5;
+	
+}
+img{
+	width: 100px;
+}
+
+
+
